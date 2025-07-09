@@ -140,6 +140,9 @@ main section {
 
 
 /* What i do styles */
+.what-section-description{
+    margin: 0 130px 50px;
+}
 .card-container {
     display: flex;
     gap: 24px;
