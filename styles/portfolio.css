@@ -67,6 +67,9 @@ nav li a {
 
 /* banner styles */
 header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
     margin-bottom: 130px;
 }
 .banner{
