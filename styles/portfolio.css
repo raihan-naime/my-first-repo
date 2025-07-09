@@ -154,3 +154,18 @@ main section{
 hr{
     border-top: 1px solid rgba(209, 209, 209, 1);
 }
+
+
+/* footer styles */
+footer{
+    display: flex;
+    gap: 120px;
+    padding: 130px 230px;
+}
+input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    background-color: white;
+}
