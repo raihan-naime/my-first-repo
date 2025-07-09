@@ -82,12 +82,14 @@ header{
 /* main styles */
 main section{
     margin: 0 230px 130px 230px;
-    padding: 130px 155px;
     text-align: center;
     border-radius: 10px;
 }
 
 /* about me styles */
+.about{
+    padding: 130px 155px;
+}
 .about-me-content{
     background-color: #fff;
     padding: 20px;
@@ -122,4 +124,30 @@ main section{
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06) ;
+}
+
+/* resume styles */
+.resume-column-container{
+    display: flex;
+    gap: 70px;
+}
+.resume-column{
+    text-align: left;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-title{
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-subtitle{
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+hr{
+    border-top: 1px solid rgba(209, 209, 209, 1);
 }
