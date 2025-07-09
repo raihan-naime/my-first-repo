@@ -109,3 +109,17 @@ main section{
     font-weight: 700;
     margin: 0px ;
 }
+
+
+/* What i do styles */
+.card-container{
+    display: flex;
+    gap: 24px;
+    text-align: left;
+}
+.card{
+    padding: 25px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06) ;
+}
